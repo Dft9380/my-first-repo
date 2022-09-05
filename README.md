@@ -64,11 +64,20 @@ listar : ls
 ## Saber que dice un archivo de texto
 cat nombreArchivo.txt
 
+## Escribir dentro de un archivo de texto
+vim nombreArchivo.txt
+escribir lo que quiera
+
 ## Comparar cambios en un archivo
 git diff nombreDelArchivo
 
 ## Comparar cambios entre archivos
 git diff nombreDelArchivo1 nombreDelArchivo2
+
+## Buscar los cambios especificos de un archivo
+(fechas, tiempos y usuarios que realizaron cambios)
+
+git blame nombreDelArchivo
 
 
 
