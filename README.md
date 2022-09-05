@@ -4,6 +4,8 @@ Cuenta de Práctica para Aprender Git
 ![image](https://user-images.githubusercontent.com/93413366/188342810-6cae9736-62fa-4822-ac7d-e59f107b8925.png)
 main (rama principal)
 
+## Clonar Repositorio
+
 - en code copiar el link HHTPS
 
 - abrig git : click derecho / git bush here
@@ -11,6 +13,33 @@ main (rama principal)
 - entrar a la Carpeta: cd nombreCarpeta
 - Clonar repositorio : git clone linkHHTPS
 
-- Listar archivos : ls -la
+- Listar todos los archivos : ls -la
 - entrar al repo (en este ejemplo): cd my-first-repo
 - Listar archivos : ls -l
+
+## Agregar y Confirmar (Add and commit)
+
+ver en que directorio estoy: pwd
+listar todo : ls -la
+ver estado de cambios y confirmaciones : git status
+Agregar un archivo de texto : touch nombreArchivo.txt
+ver estado de cambios y confirmaciones : git status
+
+NOTA en este caso vera que dice que el archivo aun no ha sido rastreado
+osea no tiene seguimiento (color rojo)
+
+Agregar el archivo de texto: git add nombreArchivo.txt
+ver estado de cambios y confirmaciones : git status
+
+NOTA en este caso vera que dice que el archivo ha sido rastreado
+y tiene seguimiento y esta esperando a ser listo para confirmar(color verde),
+en caso de querer revertir esto ejecutar git restore --staged nombreArchivo.txt
+
+limpiar interfaz : clear
+confirmar : git commit -m "aqui va el mensaje que desee poner"
+ver estado de cambios y confirmaciones : git status
+
+NOTA en este caso vera que dice que no hay nada que confirmar y que
+el arbol(menu o rama principal) esta limpio
+
+
