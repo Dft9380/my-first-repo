@@ -61,3 +61,9 @@ consultar rama principal : git checkout main
 recibir los cambios de GitHub : git pull
 listar : ls
 
+## Saber que dice un archivo de texto
+cat nombreArchivo.txt
+
+
+
+
