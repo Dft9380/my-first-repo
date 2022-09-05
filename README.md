@@ -22,7 +22,7 @@ main (rama principal)
 ver en que directorio estoy: pwd
 listar todo : ls -la
 ver estado de cambios y confirmaciones : git status
-Agregar un archivo de texto : touch nombreArchivo.txt
+Crear un archivo de texto : touch nombreArchivo.txt
 ver estado de cambios y confirmaciones : git status
 
 NOTA en este caso vera que dice que el archivo aun no ha sido rastreado
@@ -41,5 +41,14 @@ ver estado de cambios y confirmaciones : git status
 
 NOTA en este caso vera que dice que no hay nada que confirmar y que
 el arbol(menu o rama principal) esta limpio
+
+## Ramas Branches
+
+Crear una nueva rama : git checkout -B feature/nombreDeLaRama
+ver en que rama estoy : git branch
+Crear un archivo de texto : touch nombreArchivo2.txt
+Agregar el archivo de texto: git add nombreArchivo2.txt
+confirmar : git commit -m "aqui va el mensaje que desee poner"
+subir los cambios a GitHub : git push -u origin feature/nuevaRama 
 
 
