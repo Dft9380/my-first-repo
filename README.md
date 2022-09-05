@@ -64,6 +64,11 @@ listar : ls
 ## Saber que dice un archivo de texto
 cat nombreArchivo.txt
 
+## Comparar cambios en un archivo
+git diff nombreDelArchivo
+
+## Comparar cambios entre archivos
+git diff nombreDelArchivo1 nombreDelArchivo2
 
 
 
