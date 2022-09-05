@@ -50,5 +50,14 @@ Crear un archivo de texto : touch nombreArchivo2.txt
 Agregar el archivo de texto: git add nombreArchivo2.txt
 confirmar : git commit -m "aqui va el mensaje que desee poner"
 subir los cambios a GitHub : git push -u origin feature/nuevaRama 
+Entramos GitHub
 
+NOTA en este caso vera que se creo una nueva rama y debera de dar click en 
+compare & pull request(comparar y solicitar extraccion) y luego en creat pull request
+
+fusionar rama : hacer click en merge pull request
+en git bash : git status
+consultar rama principal : git checkout main
+recibir los cambios de GitHub : git pull
+listar : ls
 
